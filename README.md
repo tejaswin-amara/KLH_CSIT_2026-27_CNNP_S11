@@ -29,6 +29,7 @@
 | **CO4** | H | H | M | H | - | - | - | - | H |
 | **CO5** | H | H | - | H | H | M | M | - | H |
 | **CO6** | H | H | H | H | - | - | M | M | H |
+
 *(H = High (3), M = Moderate (2), L = Low (1), - = No significant correlation)*
 
 ---
