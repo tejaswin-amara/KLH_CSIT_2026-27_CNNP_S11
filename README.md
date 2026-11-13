@@ -14,9 +14,9 @@
 
 | Week | Experiment / Skill | Core Tools & Concepts | Documentation |
 | :--- | :--- | :--- | :--- |
-| **Week 1** | **Skill 1: Encapsulation Builder** | `tshark`, Wireshark, TCP/UDP/ICMP filters, Layer 2–4 headers | [View `Week-1/README.md`](./Week-1/README.md) |
-| **Week 2** | **Skill 2: Three-Point Capture** | `ip netns`, `veth`, `tc netem`, Netcat, `mtr`, TTL & retransmissions | [View `Week-2/README.md`](./Week-2/README.md) |
-| **Week 3** | **Skill 3: Queueing Curve & Little's Law** | `tc tbf` (5 Mbps), `iperf3`, bufferbloat analysis, $L = \lambda \times W$ | [View `Week-3/README.md`](./Week-3/README.md) |
+| **Week 1** | **Skill 1: Encapsulation Builder** | `tshark`, Wireshark, TCP/UDP/ICMP filters, Layer 2–4 headers | [View Week 1 README](./Skill/Week%201/README.md) |
+| **Week 2** | **Skill 2: Three-Point Capture** | `ip netns`, `veth`, `tc netem`, Netcat, `mtr`, TTL & retransmissions | [View Week 2 README](./Skill/Week%202/README.md) |
+| **Week 3** | **Skill 3: Queueing Curve & Little's Law** | `tc tbf` (5 Mbps), `iperf3`, bufferbloat analysis, $L = \lambda \times W$ | [View Week 3 README](./Skill/Week%203/README.md) |
 
 ---
 

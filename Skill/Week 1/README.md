@@ -3,7 +3,7 @@
 ![Skill](https://img.shields.io/badge/Lab-Skill%201-0A66C2?style=flat-square)
 ![Protocols](https://img.shields.io/badge/Protocols-Ethernet%20%7C%20IPv4%20%7C%20TCP%20%7C%20UDP%20%7C%20ICMP-2EA44F?style=flat-square)
 
-**Name:** Tejaswin Amara · **Roll No.:** `2520090104` · [← Back to Repository Root](../README.md)
+**Name:** Tejaswin Amara · **Roll No.:** `2520090104` · [← Back to Repository Root](../../README.md)
 
 ---
 
@@ -24,7 +24,9 @@ ip -br link
 sudo tshark -D
 
 # 3. Capture traffic while generating HTTPS (TCP), DNS (UDP), and Ping (ICMP) packets
-sudo tshark -i eth3 -a duration:12 -w ~/sender_capture.pcapng &
+IFACE="$(ip -4 route get 1.1.1.1 2>/dev/null | awk '{for (i=1; i<=NF; i++) if ($i == "dev") {print $(i+1); exit}}')"
+test -n "$IFACE" || { echo "Set IFACE manually from 'tshark -D'"; exit 1; }
+sudo tshark -i "$IFACE" -a duration:20 -w ~/sender_capture.pcapng &
 curl -sI https://www.google.com
 nslookup google.com
 ping -c 4 8.8.8.8
@@ -69,4 +71,6 @@ tshark -r ~/sender_capture.pcapng -Y "tcp.len > 0" | head -n 15
 
 | File | Type | Size |
 | --- | --- | --- |
-| _No additional files uploaded yet_ | — | — |
+| [`CNNP_Skill1.pdf`](./CNNP_Skill1.pdf) | PDF | 1,678,717 bytes |
+| [`Skill 1.pdf`](./Skill%201.pdf) | PDF | 1,881,251 bytes |
+| [`test1.pcapng`](./test1.pcapng) | Packet capture | 1,375,780 bytes |

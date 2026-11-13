@@ -1,6 +1,6 @@
 # Week 2 — Skill 2: Three-Point Capture
 
-**Name:** Tejaswin Amara · **Roll No.:** `2520090104` · [← Back to Repository Root](../README.md)
+**Name:** Tejaswin Amara · **Roll No.:** `2520090104` · [← Back to Repository Root](../../README.md)
 
 ---
 
@@ -85,4 +85,7 @@ sudo ip netns exec host1 nc 10.0.2.2 1234
 
 | File | Type | Size |
 | --- | --- | --- |
-| _No additional files uploaded yet_ | — | — |
+| [`CNNP_Skill2.pdf`](./CNNP_Skill2.pdf) | PDF | 3,961,040 bytes |
+| [`cap1.pcap`](./cap1.pcap) | Packet capture — host1 | 2,104 bytes |
+| [`cap2.pcap`](./cap2.pcap) | Packet capture — router | 2,104 bytes |
+| [`cap3.pcap`](./cap3.pcap) | Packet capture — host2 | 2,332 bytes |
