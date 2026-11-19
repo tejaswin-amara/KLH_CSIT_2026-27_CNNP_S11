@@ -52,13 +52,13 @@ Rather than memorizing static layer diagrams, this course approaches computer ne
 
 ## 🛠️ Networking Tools & Protocol Stack
 
-| Domain | Languages, Daemons, Protocols & Instruments Covered |
-| :--- | :--- |
-| **Systems & Stack Code** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Linux](https://img.shields.io/badge/Linux_Sockets_%26_epoll-FCC624?style=flat-square&logo=linux&logoColor=black) ![OpenSSL](https://img.shields.io/badge/TLS_1.3_%2F_ALPN-721412?style=flat-square&logo=openssl&logoColor=white) `HTTP/1.1` · `DNS` · `TCP` · `ARP` · `CRC-32` |
-| **Virtual Fabric & Routing** | ![FRRouting](https://img.shields.io/badge/FRRouting_(OSPF_%2F_BGP)-0f766e?style=flat-square) ![Open vSwitch](https://img.shields.io/badge/Open_vSwitch_(VLAN_%2F_STP_%2F_LACP)-1d4ed8?style=flat-square) ![Containerlab](https://img.shields.io/badge/Containerlab_%2F_ip_netns-4338ca?style=flat-square) |
-| **Core Network Services** | ![ISC Kea](https://img.shields.io/badge/ISC_Kea_(DHCPv4)-047857?style=flat-square) ![BIND9](https://img.shields.io/badge/BIND9_%2F_Unbound_(DNS)-b45309?style=flat-square) ![Chrony](https://img.shields.io/badge/Chrony_(NTP)-334155?style=flat-square) ![LinuxPTP](https://img.shields.io/badge/LinuxPTP_(IEEE_1588)-7c3aed?style=flat-square) |
-| **Traffic Control & QoS** | ![tc](https://img.shields.io/badge/Linux_tc_(netem_%7C_TBF_%7C_HTB_%7C_FQ--CoDel)-dc2626?style=flat-square) `DiffServ / DSCP` · `IP Multicast` · `E-Model` |
-| **Diagnostics & NetOps** | ![Wireshark](https://img.shields.io/badge/Wireshark_%2F_tshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `tcpdump` · `ss` · `iperf3` · `mtr` · `dig` |
+| Domain | Tools & Daemons | Protocols, Queues & CLI |
+| :--- | :--- | :--- |
+| **Systems & Stack Code** | ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white) ![Linux Sockets](https://img.shields.io/badge/-Linux_Sockets_%26_epoll-FCC624?style=flat-square&logo=linux&logoColor=black) ![TLS](https://img.shields.io/badge/-TLS_1.3_%2F_ALPN-721412?style=flat-square) | `HTTP/1.1` · `DNS` · `TCP` · `ARP` · `CRC-32` |
+| **Virtual Fabric & Routing** | ![FRRouting](https://img.shields.io/badge/-FRRouting-0F766E?style=flat-square) ![Open vSwitch](https://img.shields.io/badge/-Open_vSwitch-2563EB?style=flat-square) ![Containerlab](https://img.shields.io/badge/-Containerlab-4F46E5?style=flat-square) | `OSPF` · `BGP` · `VLAN` · `STP` · `LACP` · `ip netns` |
+| **Core Network Services** | ![ISC Kea](https://img.shields.io/badge/-ISC_Kea-047857?style=flat-square) ![BIND9](https://img.shields.io/badge/-BIND9_%2F_Unbound-B45309?style=flat-square) ![Chrony](https://img.shields.io/badge/-Chrony-334155?style=flat-square) ![LinuxPTP](https://img.shields.io/badge/-LinuxPTP-7C3AED?style=flat-square) | `DHCPv4` · `DNS` · `NTP` · `PTP (IEEE 1588)` |
+| **Traffic Control & QoS** | ![Linux tc](https://img.shields.io/badge/-Linux_tc-DC2626?style=flat-square&logo=linux&logoColor=white) | `netem` · `TBF` · `HTB` · `FQ-CoDel` · `DiffServ / DSCP` · `IP Multicast` · `E-Model` |
+| **Diagnostics & NetOps** | ![Wireshark](https://img.shields.io/badge/-Wireshark_%2F_tshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | `tcpdump` · `ss` · `iperf3` · `mtr` · `dig` |
 
 ---
 
